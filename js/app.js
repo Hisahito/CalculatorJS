@@ -1,5 +1,5 @@
 // function que limpia los valores
-function clearScrean() {
+function clearScreen() {
     document.getElementById("result").value = "";
 }
 

@@ -1,0 +1,22 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hisahito/CalculatorJS.git"
+  },
+  "author": "Hisahito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hisahito/CalculatorJS/issues"
+  },
+  "homepage": "https://github.com/Hisahito/CalculatorJS#readme",
+  "dependencies": {
+    "jest": "^28.1.0"
+  }
+}

@@ -15,3 +15,5 @@ function calculate() {
     let q = eval(p);
     document.getElementById("result").value = q;
 }
+
+module.exports = calculate;

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator using HTML, CSS and JS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<table class="calc">
+    <tr>
+        <td colspan="3" class ="outputtext">
+            <input class="display-box" type="text" id="result" disabled />
+        </td>
+        <!-- clearScrean() function limpia todos los valores-->
+        <td>
+            <input 
+            class="button"
+            type="button"
+            value="C"
+            onclick="clearScreen()"
+            style="background-color: #ffffff"
+            />
+        </td>
+    </tr>
+            <! -- display() function muestra el valor del boton clickeado-->
+            <td>
+                <input
+                    class="button" type="button" value="1"
+                        onclick="display('1')"
+                />
+            </td>
+            <td>
+                <input
+                    class="button" type="button" value="2"
+                        onclick="display('2')"
+                />
+            </td>
+            <td>
+                <input
+                    class="button" type="button" value="3"
+                        onclick="display('3')"
+                />
+            </td>
+            <td>
+                <input
+                    class="button" type="button" value="/"
+                        onclick="display('/')"
+                />
+            </td>
+        </tr>
+            <td>
+                <input
+                    class="button"
+                    type="button"
+                    value="4"
+                    onclick="display('4')"
+                />
+            </td>
+            <td>
+                <input
+                    class="button"
+                    type="button"
+                    value="5"
+                    onclick="display('5')"
+                />
+            </td>
+            <td>
+                <input
+                    class="button"
+                    type="button"
+                    value="6"
+                    onclick="display('6')"
+                />
+            </td>
+            <td>
+                <input
+                    class="button"
+                    type="button"
+                    value="-"
+                    onclick="display('-')"
+                />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input
+                    class="button"
+                    type="button"
+                    value="7"
+                    onclick="display('7')"
+                />
+            </td>
+            <td>
+                <input
+                    class="button"
+                    type="button"
+                    value="5"
+                    onclick="display('8')"
+                />
+            </td>
+            <td>
+                <input
+                    class="button"
+                    type="button"
+                    value="6"
+                    onclick="display('9')"
+                />
+            </td>
+            <td>
+                <input
+                    class="button"
+                    type="button"
+                    value="+"
+                    onclick="display('+')"
+                />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input
+                class="button"
+                type="button"
+                value="."
+                onclick="display('.')"
+                />
+            </td>
+            <td>
+                <input
+                class="button"
+                type="button"
+                value="0"
+                onclick="dislay('0')"
+                />
+            </td>
+            <td>
+                <input
+                class="button"
+                type="button"
+                value="*"
+                onclick="display('*')"
+                />
+            </td>
+        <!-- calculate() function evalua la expresion matematica-->
+            <td>
+                <input
+                class="button"
+                type="button"
+                value="="
+                onclick="calculate()"
+                style="background-color: #fb0066"
+                />
+            </td>
+        </tr>    
+</table>
+<script type="text/javascript" src="./js/app.js"></script>
+</body>
+</html>
